@@ -1,0 +1,33 @@
+A currency converter is an app or tool that allows you to quickly convert from one currency to another. We can easily find such tools for free on the Internet
+your task is to build an python app that does the convert 
+in this repo you have a text file called rates.txt clone this repo and read the file 
+convert it to dict or work with it as text (as you prefer)
+
+the app should print a menu to the user :
+
+welcome to our forex app -----
+insert the 3 digit currency code that you have :
+insert the 3 digit currency code that you want to have :
+amount :
+
+we need to  transfer the input to upper case digits
+and print the result after claculation 
+
+ wirte the code in function the receives 2 currency code and the amount  and returns the answer :
+ 
+ wirte a 4 test functions :
+ func 1 sends to our forex clac 'ILS' and 'USD' in the amount of 551 and check id the result matches 
+ func 2 recievs the new amount after the exchange and check if its less than the amount in shekels 
+ func 3 receives the new amount and divided by the old amount and check if the rate matches
+ func 4 sends 2 convert requests to our function one from shekels to us dollars  and "GNF" guinean franc  to dollars    in the same amount 
+    and check if the second amount after the covert is less then the first one 
+    
+write a 3 test functions:
+  func 1 sends a get http request to https://amazon.com/hanokeraro/sso/  and check if the status code is valid 
+  func 2 sends a post request to  https://httpbin.com/post with  1 parameter as dict and check if the args in the body equals the payload dict
+  func 3 send a http request to download this image 
+  
+  https://www.thesun.co.uk/wp-content/uploads/2017/03/nintchdbpict000301122102.jpg
+  
+  and save it in the same folder as the python file 
+  upload the 2 files to your repo in bitbuckert 
